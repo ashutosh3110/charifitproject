@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+    <title>Charifit</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg  navbar navbar-dark bg-primary ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Charifit</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Single Blog</a></li>
+                            <li>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Elements</a></li>
+                            <li><a class="dropdown-item" href="#">Cause</a></li>
+                            <li>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex">
+                    <a class="btn btn-danger" href="" role="button">Make a Donate</a>
+                    
+                 <!-- <button class="btn btn-danger" type="submit" >Make a Donate </button>  -->
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/img1.jpg" class="d-block w-100" style="width:1200px; height:450px;" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Charity is Good</h5>
+                    <p>If some money is donate.That money is back in other form.</p>
+                    <button class="btn btn-primary">Learn More</button>
+                    <button class="btn btn-secondary">Document</button>
+                    <button class="btn btn-danger">Review</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/img2.jpg" class="d-block w-100" style="width:1200px; height:450px;" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Donate in small amount</h5>
+                    <p>Donate in small amount not a big amount..</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/img3.jpg" class="d-block w-100" style="width:1200px; height:450px;" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Help to poor peoples</h5>
+                    <p>It helps in rular area.where </p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/img1.jpg" class="d-block w-100" style="width:1100px; height:500px;" alt="...">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/img2.jpg" class="d-block w-100" style="width:1100px; height:500px;" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/img3.jpg" class="d-block w-100" style="width:1100px; height:500px;" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> -->
+    <div class="container text-center my-5">
+        <div class="row">
+            <div class="cols-1">
+                <h2 class="">Reason of Helping</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container ml-6 my-5 ">
+        <div class="row row-cols-2 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/img5.jpeg" class="card-img-top" style="height:150px;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Collecting Funds</h5>
+                        <p class="card-text">Help us make a difference by contributing to our fund collection. Your
+                            generous donation supports essential programs and initiatives, creating a positive impact in
+                            the community and transforming lives for the better.</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/img6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blood Camp</h5>
+                        <p class="card-text">Join our blood camp to save lives! Donate blood, support those in need, and
+                            be a hero in your community. Your donation can make a life-changing difference. Together, we
+                            save lives!</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/img7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Friendly Volunteer</h5>
+                        <p class="card-text">Our friendly volunteers are here to assist and guide you throughout your
+                            donation experience. With a warm smile and helpful attitude, they ensure you feel
+                            comfortable and supported every step of the way.!</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 
+    <div class="container">
+        <div class="row-2 justify-content-end">
+            <div class="col-lg-7">
+                <div class="activites_info">
+                    <div class="section_title">
+                        <img src="./images/img8.jpg" class="img1">
+                        <h3> <span>Watch Our Latest  </span><br>
+                            Activities</h3>
+                    </div>
+                    <div class="col-lg-7">
+
+                    <p class="para_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do 
+                        eiusmod tempor incididunt  ut labore dolore magna aliqua. 
+                        enim minim veniam, quis nostrud exercitation.</p>
+                    <p class="para_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do 
+                        eiusmod tempor incididunt  ut labore dolore magna aliqua. 
+                        enim minim veniam, quis nostrud exercitation. tempor 
+                        incididunt  ut labore dolore magna aliqua. enim minim 
+                        veniam, quis nostrud exercitation.</p>
+                    <a href="#" data-scroll-nav="1" class="boxed-btn4">Donate Now</a>
+                    
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </div> -->
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <img src="./images/img8.jpg" class="img1" style="height: 290px;">
+
+            </div>
+            <div class="col my-5">
+                <h3> <span>Watch Our Latest </span><br>
+                    Activities</h3>
+                <p class="para_1">"Explore our latest initiatives, where your generous donations create real impact.
+                    From providing essential aid to empowering communities, your support drives positive change. Join us
+                    in making a difference today!".</p>
+                <a class="btn btn-success" href="#" data-scroll-nav="1" role="button">Donate Now</a>
+
+            </div>
+        </div>
+        </div>
+<div class="container text-center mt-5" id="donateit">
+    <h2 class="donation-heading">Make a Donation</h2>
+
+    <div class="d-flex justify-content-center mt-4 ">
+        <div class="row">
+            <div class="col-sm-4">
+        <div class="amount-box">
+            <span>$</span>
+            <input type="text" value="40,200" readonly>
+        </div>
+        </div>
+        <div class="col-sm-8">
+        <div class="amount-options">
+            <label>Select Amount:</label>
+            <input type="radio" name="amount" value="10"> 10
+            <input type="radio" name="amount" value="30" checked> 30
+            <input type="radio" name="amount" value="other"> Other
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <button class="donate-btn mt-4" style="margin-bottom: 20px;">Donate Now</button>
+</div>
+
+
+    
+
+
+    <div class="counter_area">
+        <div class="container bg-success" style=" color: white; margin-top: 40px;">
+            <div class="counter_bg overlay">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single_counter d-flex align-items-center justify-content-center">
+                            <div class="icon my-4">
+                                <ion-icon name="calendar-outline"
+                                    style="font-size: 64px; padding-right: 25px;"></ion-icon>
+                            </div>
+                            <div class="events">
+                                <h3 class="counter">120</h3>
+                                <p>Finished Event</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single_counter d-flex align-items-center justify-content-center">
+                            <div class="icon my-4">
+                                <ion-icon name="calendar-outline"
+                                    style="font-size: 64px; padding-right: 25px;"></ion-icon>
+                            </div>
+                            <div class="events">
+                                <h3 class="counter">120</h3>
+                                <p>Finished Event</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single_counter d-flex align-items-center justify-content-center">
+                            <div class="icon my-4">
+                                <ion-icon name="calendar-outline"
+                                    style="font-size: 64px; padding-right: 25px;"></ion-icon>
+                            </div>
+                            <div class="events">
+                                <h3 class="counter">120</h3>
+                                <p>Finished Event</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single_counter d-flex align-items-center justify-content-center">
+                            <div class="icon my-4">
+                                <ion-icon name="calendar-outline"
+                                    style="font-size: 64px; padding-right: 25px;"></ion-icon>
+                            </div>
+                            <div class="events">
+                                <h3 class="counter">120</h3>
+                                <p>Finished Event</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer_top" style="margin-top: 170px;">
+            <div class="container my-5 " style=" background-color: #eeeeee;">
+                <div class="row gy-4">
+                    <div class="col-sm-6 col-md-3 text-center text-md-start">
+                        <div class="footer_widget">
+                            <div class="footer_logo d-flex align-item-center mb-3 "
+                                style="padding:20px 0 10px 0;">
+                                <a href="#">
+                                    <img src="./images/img10.jpg" alt="" width="100px;" height="100px;" class="img-fluid rounded-circle">
+                                </a>
+                                <h3 class="ms-3">Charifit</h3>
+                            </div>
+                            <p class="address_text">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed do
+                                <br> eiusmod tempor incididunt ut labore.
+                            </p>
+                            <div class="socail_links">
+                                <div class="row">
+                                    <div class="d-flex gap-3 justify-content-center justify-content-md-start">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </div>
+                                    <div class="col">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </div>
+                                    <div class="col">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                    </div>
+                                    <div class="col">
+                                        <ion-icon name="logo-instagram"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="footer_widget" style="padding-top: 40px; padding-left:40px;">
+                            <h3 class="footer_title">
+                                Services
+                            </h3>
+                            <ul class="links" type="none" color="black">
+                                <li><a href="#" style="text-decoration: none; color:inherit">Donate</a><br></li>
+                                <li><a href="#" style="text-decoration: none; color:inherit">Sponsor</a><br></li>
+                                <li><a href="#" style="text-decoration: none;color:inherit">Fundraise</a><br></li>
+                                <li><a href="#" style="text-decoration: none;color:inherit">Volunteer</a><br></li>
+                                <li><a href="#" style="text-decoration: none;color:inherit">Partner</a><br></li>
+                                <li><a href="#" style="text-decoration: none;color:inherit">Jobs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="footer_widget" style="padding-top: 40px;">
+                            <h3 class="footer_title">
+                                Contacts
+                            </h3>
+                            <div class="contacts">
+                                <p class="mb-0">📞 +91 6263510091</p>
+                                <p class="mb-2">📧 ashutoshbankey21306@gmail.com</p>
+                                <p>📍 A-316 Iris Park, near Casa Green Dewas Naka, Indore (M.P.)</p>
+        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title" style="padding-top: 40px;">
+                                Top News
+                            </h3>
+                           <div class="d-flex align-items-center flex-wrap mb-2">
+                            <img src="./images/img11.jpeg" alt="" class="img-fluid rounded me-2" width="60">
+                            <div>
+                                <a href="#" class="text-dark fw-bold text-decoration-none">School for African Children</a>
+                                <p class="mb-0 text-muted">Jun 12, 2019</p>
+
+                            </div>
+
+                           </div>
+                           <div class="d-flex align-items-center flex-wrap">
+                            <img src="./images/img12.jpeg" alt="" class="img-fluid rounded me-2" width="60">
+                            <div>
+                                <a href="#" class="text-dark fw-bold text-decoration-none">School for African Children</a>
+                                <p class="mb-0 text-muted">Jun 12, 2019</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+</body>
+
+</html>
